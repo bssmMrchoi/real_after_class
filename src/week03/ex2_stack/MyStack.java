@@ -13,8 +13,8 @@ public class MyStack extends LinkedList implements IStack{
             top = newNode;
             return ;
         }
+        newNode.next = top;
         top = newNode;
-        System.out.println(newNode.getData() + " push");
     }
 
     @Override
