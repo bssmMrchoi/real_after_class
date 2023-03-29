@@ -7,8 +7,6 @@ public class MyQueueTest {
         listQueue.enQueue("A");
         listQueue.enQueue("B");
         listQueue.enQueue("C");
-        listQueue.enQueue("D");
-        listQueue.enQueue("E");
         listQueue.printAll();
 
         System.out.println(listQueue.deQueue()+" 삭제");
